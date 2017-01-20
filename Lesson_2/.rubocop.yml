@@ -46,6 +46,9 @@ Style/FrozenStringLiteralComment:
   Enabled: false
   Description: Require the addition of the frozen string literal comment.
 
+BlockLength:
+  Max: 90
+
 Metrics/LineLength:
   Description: Limit lines to 80 characters.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#80-character-limits
